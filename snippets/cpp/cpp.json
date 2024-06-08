@@ -16,7 +16,7 @@
     "cp template": {
         "prefix": "cpt",
         "body": [
-            "#include<bits/stdc++.h>",
+           "#include<bits/stdc++.h>",
             "#include <ext/pb_ds/assoc_container.hpp> // Common file",
             "#include <ext/pb_ds/tree_policy.hpp>",
             "",
@@ -45,7 +45,7 @@
             "    ordered_set; ",
             "    ",
             "#ifndef ONLINE_JUDGE",
-            "#define debug(x) cerr << #x <<" "; _print(x); cerr << endl;",
+            "#define debug(x) cerr << #x <<\" \"; _print(x); cerr << endl;",
             "#else",
             "#define debug(x) 0;",
             "#endif",
