@@ -12,6 +12,22 @@
         ],
         "description": "Standard starter template for a tiny C++ program"
     },
+    
+    "cp template": {
+        "prefix": "cpt",
+        "body": [
+            "#include <bits/stdc++.h>",
+            "\tusing namespace std;",
+            "",
+            "int main (int argc, char *argv[]) {",
+                "\t$1",
+                "",
+                "\treturn 0;",
+            "}"
+        ],
+        "description:" "Basic For CP"
+    },
+    
     "for": {
         "prefix": "for",
         "body": [
