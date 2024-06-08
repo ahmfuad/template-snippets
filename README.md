@@ -1,10 +1,14 @@
-# Friendly Snippets
+# Template Snippets
+
+This is mainly forked from: __Friendly Snippets__
 
 Snippets collection for a set of different programming languages.
 
 The only goal is to have one community driven repository for all kinds of
 snippets in all programming languages, this way you can have it all in one
 place.
+
+__My plan is to add DSA template snippets.__
 
 ## Install
 
@@ -13,7 +17,7 @@ Use your plugin manager of choice, e.g.
 ### With Lazy.nvim
 
 ```lua
-{ "rafamadriz/friendly-snippets" }
+{ "ahmfuad/template-snippets" }
 ```
 
 > [!WARNING]
@@ -26,26 +30,26 @@ Use your plugin manager of choice, e.g.
 > ```lua
 > {
 >   "L3MON4D3/LuaSnip",
->   dependencies = { "rafamadriz/friendly-snippets" },
+>   dependencies = { "ahmfuad/template-snippets" },
 > }
 > ```
 
 ### With Packer
 
 ```lua
-use "rafamadriz/friendly-snippets"
+use "ahmfuad/template-snippets"
 ```
 
 ### With vim-plug
 
 ```vim
-Plug "rafamadriz/friendly-snippets"
+Plug "ahmfuad/template-snippets"
 ```
 
 ### With coc.nvim
 
 ```vim
-:CocInstall https://github.com/rafamadriz/friendly-snippets@main
+:CocInstall https://github.com/ahmfuad/template-snippets@main
 ```
 
 ## Usage
