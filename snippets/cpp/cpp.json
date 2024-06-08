@@ -25,7 +25,7 @@
             "using namespace __gnu_pbds;",
             "",
             "#define int long long",
-            "#define endl '\n'",
+            "#define endl \'\n\'",
             "#define f first",
             "#define s second",
             "#define pb push_back",
